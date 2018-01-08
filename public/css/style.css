@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    position: relative;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("../assets/images/blog.jpg");
+
+    /* Set a specific height */
+    height: 450px;
+    width: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: black;
+}
