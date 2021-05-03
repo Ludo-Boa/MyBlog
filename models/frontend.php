@@ -28,7 +28,7 @@ function getComments($postId){
 
 function dbConnect(){
   try {
-    $db = new PDO('mysql:host=127.0.0.1;dbname=MyBlog;charset=utf8', 'root', 'lb171177!', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    $db = new PDO('mysql:host=127.0.0.1;dbname=MyBlog;charset=utf8', 'root', 'XXXXXXX', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     return $db;
   }
   catch(Exception $e){
